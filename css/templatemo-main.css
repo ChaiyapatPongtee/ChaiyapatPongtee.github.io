@@ -302,7 +302,7 @@ nav a:hover::before {
   background-image: url(../img/second_bg2.jpg);
 }
 .slides .slide:nth-child(3) {
-  background-image: url(../img/third_bg.jpg);
+  background-image: url(../img/bg02.jpeg);
 }
 .slides .slide:nth-child(4) {
   background-image: url(../img/fourth_bg.jpg);
@@ -328,6 +328,7 @@ nav a:hover::before {
 
 .first-content .author-image img {
 	margin-top: 15px;
+	border: 2px solid #000;
 	border-radius: 30px;
 	max-width: 70%;
 	overflow: hidden;
