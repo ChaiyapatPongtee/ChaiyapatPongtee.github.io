@@ -296,13 +296,13 @@ nav a:hover::before {
 
 .slides .slide:nth-child(1) {
   background-image: url(../img/cloud-storage.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 .slides .slide:nth-child(2) {
   background-image: url(../img/second_bg2.jpg);
 }
 .slides .slide:nth-child(3) {
-  background-image: url(../img/bg02.jpeg);
+  background-image: url(../img/bg03.jpg);
 }
 .slides .slide:nth-child(4) {
   background-image: url(../img/fourth_bg.jpg);
@@ -328,14 +328,25 @@ nav a:hover::before {
 
 .first-content .author-image img {
 	margin-top: 15px;
-	border: 2px solid #000;
+	border: 2px solid #fff;
 	border-radius: 30px;
 	max-width: 70%;
 	overflow: hidden;
 	float: left;
 	margin-right: 35px;
 }
-
+.underline{
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0.5px;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
 .first-content h2 {
 	font-size: 36px;
 	text-transform: uppercase;
@@ -369,6 +380,24 @@ nav a:hover::before {
 	margin-right: 15px;
 }
 
+.main-btn {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.main-btn a {
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+	transition: all 0.5s;
+}
+
 .first-content .main-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
@@ -398,6 +427,23 @@ nav a:hover::before {
 	text-decoration: none;
 	transition: all 0.5s;
 }
+.fb-btn a {
+	display: inline-block;
+	background-color: #fff;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #232323;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.fb-btn a:hover {
+	color: #fff;
+	background-color: transparent;
+}
+
 
 .first-content .fb-btn a:hover {
 	color: #fff;
